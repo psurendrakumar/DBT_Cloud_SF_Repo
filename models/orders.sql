@@ -1,0 +1,2 @@
+select *
+from DBT_CLOUD.LANDING.ORDERS
