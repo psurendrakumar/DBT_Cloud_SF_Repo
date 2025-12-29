@@ -1,2 +1,4 @@
-select *
-from DBT_CLOUD.LANDING.ORDERS
+select 
+*
+from 
+{{ source('landing','orders') }}

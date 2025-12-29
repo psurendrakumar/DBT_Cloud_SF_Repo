@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: landing
+    database: DBT_CLOUD        # optional (required in Snowflake/BigQuery sometimes)
+    schema: landing
+    description: "Raw data loaded from source systems"
+
+    tables:
+      - name: orders
+    
+      - name: products
+
+      - name : reviews
+
+      - name : users
+        
+  
