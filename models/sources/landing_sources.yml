@@ -8,9 +8,46 @@ sources:
 
     tables:
       - name: orders
-        
+        columns:
+          - name: id
+            tests:
+              - unique:
+                 config:
+                  severity: warn
+              - not_null:
+                 config:
+                  severity: warn               
+
       - name: products
+        columns:
+          - name: id
+            tests:
+              - unique:
+                 config:
+                  severity: warn
+              - not_null:
+                 config:
+                  severity: warn               
 
       - name : reviews
-
+        columns:
+          - name: id
+            tests:
+              - unique:
+                 config:
+                  severity: warn
+              - not_null:
+                 config:
+                  severity: warn               
+          
       - name : users
+        columns:
+          - name: id
+            tests:
+              - unique:
+                 config:
+                  severity: warn
+              - not_null:
+                 config:
+                  severity: warn               
+        
