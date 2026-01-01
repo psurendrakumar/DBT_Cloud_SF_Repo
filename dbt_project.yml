@@ -46,3 +46,7 @@ models:
     gold:
       +materialized: table
       +schema: gold
+
+seeds:
+  DBT_SF_PROJECT:
+    +schema: bronze
